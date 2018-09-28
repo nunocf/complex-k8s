@@ -1,9 +1,7 @@
 apiVersion: certmanager.k8s.io/v1alpha1
 kind: Certificate
-
 metadata:
   name: gingeroak-com-tls
-
 spec:
   secretName: gingeroak-com
   issuerRef:
